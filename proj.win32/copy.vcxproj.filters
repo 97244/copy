@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="figure">
+      <UniqueIdentifier>{1e5ee134-a508-4101-8dd6-f279b082064f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_scene">
+      <UniqueIdentifier>{b47487a6-ecc2-49cc-a08b-e3d0d2e7a2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_ui">
+      <UniqueIdentifier>{686065a5-f179-408a-afa3-4208fc0bc474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{35643670-ccff-4349-a94a-b70ad937f04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prop_system">
+      <UniqueIdentifier>{4da03aee-9ee0-4f5d-8239-60a7986d16df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skill_system">
+      <UniqueIdentifier>{5a97a657-3306-4b56-854b-3509d5d7839b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UiControl">
+      <UniqueIdentifier>{035d1feb-0968-44a8-8f92-ea983a65914c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiControl\HRocker.cpp">
+      <Filter>UiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiControl\HudLayer.cpp">
+      <Filter>UiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiControl\JoyStick.cpp">
+      <Filter>UiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiControl\LyfIndexPath.cpp">
+      <Filter>UiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiControl\LyfIndicator.cpp">
+      <Filter>UiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiControl\LyfTableView.cpp">
+      <Filter>UiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiControl\LyfTableViewCell.cpp">
+      <Filter>UiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiControl\LyfTextFieldTTF.cpp">
+      <Filter>UiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiControl\SimpleDPad.cpp">
+      <Filter>UiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\map\BgMap.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\map\BgMapFloorTile.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\map\MapPoint.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\map\NpcFigure.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\map\NpcInfoSystem.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\map\PathAStar.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\map\PortalSprite.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\map\RoninAStar.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\AttackEnemyInfo.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\CCTouchMouse.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\ChatInterface.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\ChatInterfaceCell.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\Direction.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\GameInfoUIController.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\GameOptions.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\GameTabBarMenu.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\LAlertView.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\LMenu.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\LOperationMenu.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\MapThumbnailLayer.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\PopupLayer.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\ProgressAutomatic.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\PropColumn.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\RoleCreateLayer.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_ui\SkillTableView.cpp">
+      <Filter>game_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_scene\FlutteringFairy.cpp">
+      <Filter>game_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_scene\GameLoading.cpp">
+      <Filter>game_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game_scene\GameScene.cpp">
+      <Filter>game_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\figure\Enemy.cpp">
+      <Filter>figure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\figure\Figure.cpp">
+      <Filter>figure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\figure\Monomer.cpp">
+      <Filter>figure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\figure\OtherPlayer.cpp">
+      <Filter>figure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\figure\Player.cpp">
+      <Filter>figure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\figure\PlayerController.cpp">
+      <Filter>figure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\figure\TextureController.cpp">
+      <Filter>figure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSocket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoginScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\skill_system\AttackSkillSystem.cpp">
+      <Filter>skill_system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\skill_system\SkillEffectShow.cpp">
+      <Filter>skill_system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop_system\PropIconShow.cpp">
+      <Filter>prop_system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop_system\PropSystem.cpp">
+      <Filter>prop_system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiControl\HRocker.h">
+      <Filter>UiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiControl\HudLayer.h">
+      <Filter>UiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiControl\JoyStick.h">
+      <Filter>UiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiControl\LyfIndexPath.h">
+      <Filter>UiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiControl\LyfIndicator.h">
+      <Filter>UiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiControl\LyfTableView.h">
+      <Filter>UiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiControl\LyfTableViewCell.h">
+      <Filter>UiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiControl\LyfTextFieldTTF.h">
+      <Filter>UiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiControl\SimpleDPad.h">
+      <Filter>UiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\BgMap.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\BgMapFloorTile.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\fsa.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\MapPoint.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\NpcFigure.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\NpcInfoSystem.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\PathAStar.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\PortalSprite.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\RoninAStar.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\map\stlastar.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\AttackEnemyInfo.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\CCTouchMouse.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\ChatInterface.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\ChatInterfaceCell.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\Direction.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\GameInfoUIController.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\GameOptions.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\GameTabBarMenu.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\LAlertView.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\LMenu.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\LOperationMenu.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\MapThumbnailLayer.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\PopupLayer.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\ProgressAutomatic.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\PropColumn.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\RoleCreateLayer.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_ui\SkillTableView.h">
+      <Filter>game_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_scene\FlutteringFairy.h">
+      <Filter>game_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_scene\GameLoading.h">
+      <Filter>game_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game_scene\GameScene.h">
+      <Filter>game_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\figure\Enemy.h">
+      <Filter>figure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\figure\Figure.h">
+      <Filter>figure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\figure\Monomer.h">
+      <Filter>figure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\figure\OtherPlayer.h">
+      <Filter>figure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\figure\Player.h">
+      <Filter>figure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\figure\PlayerController.h">
+      <Filter>figure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\figure\TextureController.h">
+      <Filter>figure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSocket.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoginScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\skill_system\AttackSkillSystem.h">
+      <Filter>skill_system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\skill_system\SkillEffectShow.h">
+      <Filter>skill_system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop_system\PropIconShow.h">
+      <Filter>prop_system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop_system\PropSystem.h">
+      <Filter>prop_system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

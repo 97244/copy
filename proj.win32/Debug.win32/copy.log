@@ -1,0 +1,203 @@
+﻿  AppDelegate.cpp
+  Enemy.cpp
+  Figure.cpp
+  Monomer.cpp
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C2059: 语法错误:“<class-head>” (编译源文件 ..\Classes\figure\Monomer.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C3805: “<class-head>”: 意外标记，应输入“}”或者“,” (编译源文件 ..\Classes\figure\Monomer.cpp)
+c:\users\dell\desktop\copy\classes\figure\monomer.h(13): fatal error C1083: 无法打开包括文件: “AttackSkillSystem.h”: No such file or directory (编译源文件 ..\Classes\figure\Monomer.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C2059: 语法错误:“<class-head>” (编译源文件 ..\Classes\figure\Enemy.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C3805: “<class-head>”: 意外标记，应输入“}”或者“,” (编译源文件 ..\Classes\figure\Enemy.cpp)
+c:\users\dell\desktop\copy\classes\figure\monomer.h(13): fatal error C1083: 无法打开包括文件: “AttackSkillSystem.h”: No such file or directory (编译源文件 ..\Classes\figure\Enemy.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C2059: 语法错误:“<class-head>” (编译源文件 ..\Classes\figure\Figure.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C3805: “<class-head>”: 意外标记，应输入“}”或者“,” (编译源文件 ..\Classes\figure\Figure.cpp)
+c:\users\dell\desktop\copy\classes\figure\figure.cpp(441): fatal error C1004: 发现意外的文件尾
+  OtherPlayer.cpp
+  Player.cpp
+  PlayerController.cpp
+c:\users\dell\desktop\copy\classes\appdelegate.cpp(18): error C2039: “create”: 不是“cocos2d::GLView”的成员
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\renderer\ccframebuffer.h(35): note: 参见“cocos2d::GLView”的声明
+c:\users\dell\desktop\copy\classes\appdelegate.cpp(18): error C3861: “create”: 找不到标识符
+  TextureController.cpp
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C2059: 语法错误:“<class-head>” (编译源文件 ..\Classes\figure\OtherPlayer.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C3805: “<class-head>”: 意外标记，应输入“}”或者“,” (编译源文件 ..\Classes\figure\OtherPlayer.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C2059: 语法错误:“<class-head>” (编译源文件 ..\Classes\figure\Player.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C3805: “<class-head>”: 意外标记，应输入“}”或者“,” (编译源文件 ..\Classes\figure\Player.cpp)
+c:\users\dell\desktop\copy\classes\figure\monomer.h(13): fatal error C1083: 无法打开包括文件: “AttackSkillSystem.h”: No such file or directory (编译源文件 ..\Classes\figure\OtherPlayer.cpp)
+c:\users\dell\desktop\copy\classes\figure\monomer.h(13): fatal error C1083: 无法打开包括文件: “AttackSkillSystem.h”: No such file or directory (编译源文件 ..\Classes\figure\Player.cpp)
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\figure\PlayerController.cpp)
+  GameSocket.cpp
+  FlutteringFairy.cpp
+  GameLoading.cpp
+c:\users\dell\desktop\copy\classes\gamesocket.h(12): fatal error C1083: 无法打开包括文件: “Monomer.h”: No such file or directory (编译源文件 ..\Classes\GameSocket.cpp)
+  GameScene.cpp
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C2059: 语法错误:“<class-head>” (编译源文件 ..\Classes\figure\TextureController.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.h(27): error C3805: “<class-head>”: 意外标记，应输入“}”或者“,” (编译源文件 ..\Classes\figure\TextureController.cpp)
+c:\users\dell\desktop\copy\classes\figure\texturecontroller.cpp(10): fatal error C1083: 无法打开包括文件: “GameScene.h”: No such file or directory
+  AttackEnemyInfo.cpp
+c:\users\dell\desktop\copy\classes\game_scene\flutteringfairy.cpp(12): fatal error C1083: 无法打开包括文件: “Monomer.h”: No such file or directory
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_scene\GameLoading.cpp)
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_scene\GameScene.cpp)
+  CCTouchMouse.cpp
+  ChatInterface.cpp
+  ChatInterfaceCell.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\AttackEnemyInfo.cpp)
+  Direction.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\ChatInterfaceCell.cpp)
+c:\users\dell\desktop\copy\classes\game_ui\cctouchmouse.cpp(4): fatal error C1083: 无法打开包括文件: “GameScene.h”: No such file or directory
+  GameInfoUIController.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\ChatInterface.cpp)
+  GameOptions.cpp
+  GameTabBarMenu.cpp
+c:\users\dell\desktop\copy\classes\game_ui\direction.h(3): fatal error C1083: 无法打开包括文件: “MapPoint.h”: No such file or directory (编译源文件 ..\Classes\game_ui\Direction.cpp)
+  LAlertView.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\GameInfoUIController.cpp)
+  LMenu.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\GameTabBarMenu.cpp)
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\GameOptions.cpp)
+  LOperationMenu.cpp
+  MapThumbnailLayer.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\LAlertView.cpp)
+  PopupLayer.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\LMenu.cpp)
+  ProgressAutomatic.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\LOperationMenu.cpp)
+  PropColumn.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\MapThumbnailLayer.cpp)
+  RoleCreateLayer.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\PopupLayer.cpp)
+  SkillTableView.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\ProgressAutomatic.cpp)
+  LoginScene.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\PropColumn.cpp)
+  BgMap.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\game_ui\SkillTableView.cpp)
+c:\users\dell\desktop\copy\classes\game_ui\rolecreatelayer.h(18): fatal error C1083: 无法打开包括文件: “extensions/cocos-ext.h”: No such file or directory (编译源文件 ..\Classes\game_ui\RoleCreateLayer.cpp)
+  MapPoint.cpp
+  NpcFigure.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\map\BgMap.cpp)
+  NpcInfoSystem.cpp
+c:\users\dell\desktop\copy\classes\loginscene.cpp(10): fatal error C1083: 无法打开包括文件: “RoleCreateLayer.h”: No such file or directory
+  PathAStar.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\map\MapPoint.cpp)
+  PortalSprite.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\map\NpcFigure.cpp)
+  RoninAStar.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\map\NpcInfoSystem.cpp)
+  PropIconShow.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\map\PathAStar.cpp)
+  PropSystem.cpp
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(18): error C2059: 语法错误:“public” (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(22): error C2588: “::~PortalSprite”: 非法的全局 析构函数 (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(22): error C2575: “PortalSprite”: 只有成员函数和基可以是虚拟的 (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(22): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(24): error C2143: 语法错误: 缺少“;”(在“*”的前面) (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(24): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(24): error C2365: “PortalSprite”: 重定义；以前的定义是“函数” (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(28): error C2059: 语法错误:“}” (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.h(28): error C2143: 语法错误: 缺少“;”(在“}”的前面) (编译源文件 ..\Classes\map\PortalSprite.cpp)
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(5): error C2653: “PortalSprite”: 不是类或命名空间名称
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(8): error C2550: “PortalSprite”: 构造函数初始值设定项列表只能在构造函数定义中使用
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(14): error C2653: “PortalSprite”: 不是类或命名空间名称
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(19): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(19): error C2365: “PortalSprite”: 重定义；以前的定义是“函数”
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(19): error C2653: “PortalSprite”: 不是类或命名空间名称
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(20): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(20): error C2059: 语法错误:“{”
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(20): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(20): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(32): error C2653: “PortalSprite”: 不是类或命名空间名称
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(34): error C2352: “cocos2d::Sprite::init”: 非静态成员函数的非法调用
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccsprite.h(488): note: 参见“cocos2d::Sprite::init”的声明
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(37): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(37): error C2227: “->setContentSize”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(41): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(41): error C2227: “->getContentSize”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(42): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(42): error C2227: “->addChild”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\map\portalsprite.cpp(47): error C2653: “PortalSprite”: 不是类或命名空间名称
+  AttackSkillSystem.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\map\RoninAStar.cpp)
+  SkillEffectShow.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\prop_system\PropIconShow.cpp)
+  HRocker.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\prop_system\PropSystem.cpp)
+  LyfIndicator.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\skill_system\AttackSkillSystem.cpp)
+  LyfTableView.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\skill_system\SkillEffectShow.cpp)
+  LyfTableViewCell.cpp
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(51): error C2065: “rockerBGPosition”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(52): error C2065: “rockerBGR”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(89): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(122): error C2065: “isCanMove”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(128): error C2065: “isCanMove”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(130): error C2065: “isCanMove”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(135): error C2065: “isCanMove”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(143): error C2065: “rockerBGPosition”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(143): error C2228: “.x”的左边必须有类/结构/联合
+  c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(143): note: 类型是“unknown-type”
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(143): error C2228: “.y”的左边必须有类/结构/联合
+  c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(143): note: 类型是“unknown-type”
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(143): error C2065: “rockerBGR”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(231): error C2065: “isCanMove”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\hrocker.cpp(239): error C2065: “isCanMove”: 未声明的标识符
+  LyfTextFieldTTF.cpp
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\UiControl\LyfIndicator.cpp)
+c:\cocos\cocos2d-x\cocos2d-x-3.10\extensions\gui\cccontrolextension\cccontrolutils.h(39): fatal error C1083: 无法打开包括文件: “extensions/ExtensionExport.h”: No such file or directory (编译源文件 ..\Classes\UiControl\LyfTableView.cpp)
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(25): error C2614: “LyfTableViewCell”: 非法的成员初始化:“m_sign”不是基或成员
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(25): error C2614: “LyfTableViewCell”: 非法的成员初始化:“m_textTag”不是基或成员
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(25): error C2614: “LyfTableViewCell”: 非法的成员初始化:“m_bIsTouchEnabled”不是基或成员
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(25): error C2614: “LyfTableViewCell”: 非法的成员初始化:“m_specially”不是基或成员
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(286): error C2065: “m_bIsTouchEnabled”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(311): error C2065: “TOUCH_PROTECTION_ACCURACY”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(400): error C2039: “setPriority”: 不是“LyfTableViewCell”的成员
+  c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.h(57): note: 参见“LyfTableViewCell”的声明
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(403): error C2065: “m_nTouchPriority”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(418): error C2039: “setTouchEnabled”: 不是“LyfTableViewCell”的成员
+  c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.h(57): note: 参见“LyfTableViewCell”的声明
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(421): error C2065: “m_bIsTouchEnabled”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(423): error C2065: “m_bIsTouchEnabled”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(425): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(425): error C2227: “->setClickEffect”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(429): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(429): error C2227: “->setNoClickEffect”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(433): error C2039: “getTouchEnabled”: 不是“LyfTableViewCell”的成员
+  c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.h(57): note: 参见“LyfTableViewCell”的声明
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(435): error C2065: “m_bIsTouchEnabled”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(440): error C3872: “0x2033”: 此字符不允许在标识符中使用
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(468): error C3872: “0x2033”: 此字符不允许在标识符中使用
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(588): error C2065: “m_textTag”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(588): error C2228: “.c_str”的左边必须有类/结构/联合
+  c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(588): note: 类型是“unknown-type”
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(591): error C2039: “isInTheRangeOfTableView”: 不是“LyfTableViewCell”的成员
+  c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.h(57): note: 参见“LyfTableViewCell”的声明
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(595): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(595): error C2227: “->getContentSize”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(595): error C2228: “.width”的左边必须有类/结构/联合
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(596): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(596): error C2227: “->getParent”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(596): error C2227: “->getContentSize”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(596): error C2228: “.height”的左边必须有类/结构/联合
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(600): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(600): error C2227: “->getPositionY”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(600): error C2227: “->getParent”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(600): error C2227: “->getContentSize”的左边必须指向类/结构/联合/泛型类型
+c:\users\dell\desktop\copy\classes\uicontrol\lyftableviewcell.cpp(600): error C2228: “.height”的左边必须有类/结构/联合
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(33): error C2614: “cocos2d::LyfTextFieldTTF”: 非法的成员初始化:“m_beginPos”不是基或成员
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(95): error C2131: 表达式的计算结果不是常数
+  c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(95): note: 非常量参数或对非常量符号的引用导致了故障
+  c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(95): note: 请参见“height”的用法
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(101): error C3863: 不可指定数组类型“int [height][column]”
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(153): error C2065: “m_beginPos”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(175): error C2059: 语法错误:“||”
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(175): error C2059: 语法错误:“)”
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(176): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(178): error C2065: “m_beginPos”: 未声明的标识符
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(178): error C2228: “.x”的左边必须有类/结构/联合
+  c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(178): note: 类型是“unknown-type”
+c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(178): error C2228: “.y”的左边必须有类/结构/联合
+  c:\users\dell\desktop\copy\classes\uicontrol\lyftextfieldttf.cpp(178): note: 类型是“unknown-type”
